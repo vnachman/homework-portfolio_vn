@@ -66,21 +66,70 @@ body {
   height: 500px;
 
 }
-.row {
+.quote {
+  border: 1px solid black;
 }
+
 
 header {
   background-image: url(./header_bg.jpg);
-  margin: 20px 0;
+  padding: 300px;
+  
 
 }
+section {
+  background-color: #f0efef;
+  color: #606161;
+  font-size: 20px;
+  font-style: semibold;
+}
+section h1 {
+  font-style: semibold;
+  font-size: 20px;
+  color:#033048;
+}
 
-section blockquote {
+section p {
+  font-style: light;
+  font-size: 13px;
+  color: #606161;
+}
+
+section ul {
+  font-style: light;
+  font-size: 13px;
+  color: #606161;
+}
+
+aside {
+  background-image: url(./testimonial_bg.jpg);
+  font-style: semibold;
+  font-size: 18px;
+  color: #606161;
+  margin: 0px;
+}
+
+aside p blockquote {
   font-size: 18px;
   font-style: light-italic;
 }
 footer {
+  background-color: #121212;
+  margin: 0px;
+}
+footer h1 {
+  color: #606161;
+  font-style: extra-bold;
+  font-size: 24px;
+  color:#f9e42e;
+}
+footer img {
 
+}
+footer p {
+  color: #606161;
+  font-style: semi-bold;
+  font-size: 9px;
 }
 
 /******************************************
