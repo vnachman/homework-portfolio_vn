@@ -67,10 +67,6 @@ body {
 
 }*/
 
-#background {
-  background-image: url(./header_bg.jpg);
-}
-
 .first {
   font-weight: bolder;
   font-size: 24px;
@@ -83,7 +79,7 @@ body {
   font-weight:450;
   font-size: 24px;
   text-align: center;
-  padding: 100px;
+  padding: 80px;
   margin-bottom: 0px;
   font-family: 'Open Sans', sans-serif;
   margin-top: -5%;
@@ -95,14 +91,10 @@ body {
   color: #033048;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
- /* vertical-align: middle;*/ 
-  width: 20em;
-  height: 1em;
-  padding: 2em;
-  margin-left: 38%;
+  width: 15em;
+  padding: 0.5em;
+  margin-left: 41%;
   margin-bottom: 10%;
-  box-sizing: border-box;
-  border: 1px solid black;
   border-radius: 5px;
   background-color: #f9e42e
 }
@@ -173,28 +165,26 @@ body {
   color: #f0efef;
   font-family: 'Open Sans', sans-serif;
   width: 20em;
-  height: 1em;
   padding: 2em;
-  margin-left: 43.5%;
-  border: 1px solid black;
+  margin-left: 43%;
   border-radius: 5px;
   background-color: #033048;
 }
 
-.title {
+#yellow {
   font-weight: bolder;
   font-size: 24px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color:#f9e42e;
-  padding: 15px;
+  padding: 1px;
 }
 
 .social {
   width: 20em;
   height: 1em;
   padding: 2em;
-  margin-left: 29%;
+  margin-left: 45%;
 }
 
 .copyright {
@@ -203,11 +193,14 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #f0efef;
+  margin-top: 12px;
   padding: 15px;
 }
-header {
-  
 
+header {
+  background-image: url(./header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   flex-wrap: nowrap;
   padding: 20px;
@@ -221,7 +214,8 @@ section {
 
 aside {
   background-image: url(./testimonial_bg.jpg);
-  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 nav {
